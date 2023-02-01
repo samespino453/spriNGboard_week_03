@@ -2,3 +2,5 @@ runme*
 
 *.o
 
+core.*
+
