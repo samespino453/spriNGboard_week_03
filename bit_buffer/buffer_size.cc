@@ -8,6 +8,8 @@ int32_t buffer_size (int32_t W, int32_t N)
   /////////////////////////////
   // IMPLEMENT FUNCTION HERE //
   /////////////////////////////
+  return (N + W - 1) / W;
+
 
 }
 

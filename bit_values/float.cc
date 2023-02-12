@@ -11,6 +11,16 @@ int main ()
   // MANIPULATE BITS HERE //
   //////////////////////////
 
+   x |= 1;
+
+   x |= (1 << 2);
+
+   x |= (1 << 5);
+
+   x |= (122 << 23);
+
+   x &= ~(1 << 31);
+
 
   float f = reinterpret_cast<float&>(x);
   cout << "x = " << x << endl;
